@@ -32,8 +32,9 @@ Add the `flexboxgrid.css` __development__ or `flexboxgrid.min.css` __production_
 ```
 <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
 ```
+#Update
 
-# flexbox Grid 2
+# Flexbox Grid 2
 [![npm version](https://badge.fury.io/js/flexboxgrid2.svg)](https://badge.fury.io/js/flexboxgrid2)
 
 Modern 12 column grid system based on flex property.

@@ -1,41 +1,37 @@
-# flexboxgrid2
-[![npm version](https://badge.fury.io/js/flexboxgrid2.svg)](https://badge.fury.io/js/flexboxgrid2)
+Flexbox Grid
+===========
 
-Modern 12 column grid system based on flex property.
+[flexboxgrid.com](http://flexboxgrid.com)
 
-→ [Documentation](https://evgenyrodionov.github.io/flexboxgrid2/)
+Grid based on the `flex` display property.
 
-## Motivation
-Forked from [kristoferjoseph/flexboxgrid](https://github.com/kristoferjoseph/flexboxgrid) because original project seems abandoned ([kristoferjoseph/flexboxgrid#236](https://github.com/kristoferjoseph/flexboxgrid/pull/236), [kristoferjoseph/flexboxgrid#229](https://github.com/kristoferjoseph/flexboxgrid/pull/229), [kristoferjoseph/flexboxgrid#211](https://github.com/kristoferjoseph/flexboxgrid/pull/211), etc).
-
-## Breakpoints
-- `xs`: 0..575px
-- `sm`: 576..767px
-- `md`: 768..991px
-- `lg`: 992..1199px
-- `xl`: 1200px+
-- `.container` padding: 8px
-- `.container` width: $breakpoint - 16px
-- `.col-*` padding: 8px
-
-## Install
-### yarn
-`yarn add flexboxgrid2`
-
+Install
+---------
 ### npm
-`npm i -S flexboxgrid2`
+`npm i flexboxgrid --save`
 
-# Usage
-### webpack
-```js
-import 'flexboxgrid2'
-// or if you use airbnb-config-eslint which explicitly wants .css extension
-import 'flexboxgrid2/flexboxgrid2.css'
+### bower
+`bower install flexboxgrid`
+
+### cdn
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 ```
 
-### unpkg.com CDN
-```html
-<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@[version]/flexboxgrid2.css">
-``` 
+### css
+* [Development](https://raw.githubusercontent.com/kristoferjoseph/flexboxgrid/master/dist/flexboxgrid.css)
+* [Production](https://raw.githubusercontent.com/kristoferjoseph/flexboxgrid/master/dist/flexboxgrid.min.css)
 
-Replace `[version]` with current version, f.e. `7.2.1`
+Add the `flexboxgrid.css` __development__ or `flexboxgrid.min.css` __production__ to your html page.
+
+```
+<link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
+```
+Inspiration
+-----------
+- [topcoat-grid](https://github.com/topcoat/grid)
+- [flexbox-grid by @zeMicro](https://github.com/zeMirco/flexbox-grid)
+- [ptb2.me/flexgrid](http://ptb2.me/flexgrid/)
+- [codepen.io/marcolago/pen/lqGFb](http://codepen.io/marcolago/pen/lqGFb)
+- [philipwalton.github.io/solved-by-flexbox/demos/grids](http://philipwalton.github.io/solved-by-flexbox/demos/grids/)
+- [davidwalsh.name/stylus-grid](http://davidwalsh.name/stylus-grid)

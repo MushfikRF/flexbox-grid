@@ -1,9 +1,12 @@
 Flexbox Grid
 ===========
 
-[flexboxgrid.com](http://flexboxgrid.com)
+The framework link: [flexboxgrid.com](http://flexboxgrid.com)  
+
+All kind of CDN  link [cdnjs.com](https://cdnjs.com)   &   [jsdelivr.com](https://www.jsdelivr.com/)
 
 Grid based on the `flex` display property.
+
 
 Install
 ---------
@@ -27,11 +30,4 @@ Add the `flexboxgrid.css` __development__ or `flexboxgrid.min.css` __production_
 ```
 <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
 ```
-Inspiration
------------
-- [topcoat-grid](https://github.com/topcoat/grid)
-- [flexbox-grid by @zeMicro](https://github.com/zeMirco/flexbox-grid)
-- [ptb2.me/flexgrid](http://ptb2.me/flexgrid/)
-- [codepen.io/marcolago/pen/lqGFb](http://codepen.io/marcolago/pen/lqGFb)
-- [philipwalton.github.io/solved-by-flexbox/demos/grids](http://philipwalton.github.io/solved-by-flexbox/demos/grids/)
-- [davidwalsh.name/stylus-grid](http://davidwalsh.name/stylus-grid)
+
